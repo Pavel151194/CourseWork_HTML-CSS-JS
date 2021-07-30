@@ -1,0 +1,18 @@
+.work_space{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    .column{
+        width: 33%;
+        .toDo_space, .inProgress_space, .complete_space{
+            border-radius: 20px;
+            overflow: auto;
+            max-height: 70vh;
+            word-wrap: break-word;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.modal_button{
+    width: 140px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    border-radius: 17px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: all 150ms ease-in-out;
+}
+.ok{
+    color: #FFFFFF;
+    background: #FFA945;
+    margin-right: 10px;
+    &:hover{
+        background: #FFFFFF;
+        border: 2px solid #FFA945;
+        color: #FFA945;
+    }
+}
+.reset{
+    color: #FFFFFF;
+    background: #bebebe;
+    cursor: pointer;
+    &:hover{
+        background: #FFFFFF;
+        border: 2px solid #bebebe;
+        color: #bebebe;
+    }
+}
+.edit, .delete, .send, .done, .return{
+    img{
+        width: 20px;
+        height: 20px;
+        transition: all 150ms ease-in-out;
+        &:hover{
+        cursor: pointer;
+        transform: scale(1.2);
+        }
+    }   
+}
+.button_name{
+    position: absolute;
+    padding: 0 7px;
+    font-family: Rubik;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid;
+    border-radius: 15px;
+    color: #000000;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+}

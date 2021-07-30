@@ -1,0 +1,23 @@
+.sort{
+    font-size: 20px;
+    font-family: Rubik;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    select{
+        padding: 5px;
+        color: #000000;
+        background: #FFFFFF;
+        border-radius: 17px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        option{
+            background: none;
+            color: #000000;
+            font-size: 15px;
+        }
+        .empty{
+            display: none;
+        }
+    }
+}

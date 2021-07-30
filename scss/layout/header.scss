@@ -1,0 +1,11 @@
+.header{
+    height: 80px;
+    background: rgba(86, 86, 86, 0.7);
+    margin-bottom: 15px;
+    .header_container{
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+    }
+}

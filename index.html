@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/styles.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class='header'>
+        <div class='wrapper header_container'>
+            <h1>LOGO</h1>
+        </div>
+    </header>
+    <main>
+        <div class='wrapper'>
+            <form class='sort'>
+                <label>Sorted by:</label>
+                <select>
+                    <option class='empty' selected disabled hidden></option>
+                    <option value="a-z">name, A-Z</option>
+                    <option value="z-a">name, Z-A</option>
+                    <option value="old-new">date, old-new</option>
+                    <option value="new-old">date, new-old</option>
+                </select>
+            </form>
+            <div class='work_space'>
+                <div class ='column to_do'>
+                    <div class='card'>
+                        <h3>To do</h3>
+                        <div class='toDo_space'>
+                        </div>
+                        <button class='work_space_button newTask'>+ New task</button>
+                    </div>
+                </div>
+                <div class ='column in_progress'>
+                    <div class='card'>
+                        <h3>In progress</h3>
+                        <div class='inProgress_space'>
+                        </div>
+                    </div>
+                </div>
+                <div class ='column complete'>
+                    <div class='card'>
+                        <h3>Complete</h3>
+                        <div class='complete_space'>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class='modal_windows hidden'>
+        <div class='card center'>
+            <h3 class='modal_window_tittle'></h3>
+            <form class='modal_form'>
+                <input class='formField taskName' type="text" placeholder="Name">
+                <textarea class='formField taskDescription' placeholder="Description" cols="30" rows="5"></textarea>
+                <button class='modal_button ok' type="button">OK</button>
+                <input class='modal_button reset' type="reset" value="Cancel">
+            </form>
+        </div>
+    </div>
+    <p class='button_name'></p>
+    <script type="module" src="./scripts/index.js"></script>
+</body>
+</html>

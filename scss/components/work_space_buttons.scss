@@ -1,0 +1,18 @@
+.work_space_button{
+    width: 140px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    border-radius: 17px;
+    background: #FFFFFF;
+    border: 2px solid rgba(255, 255, 255, 0);
+    transition: all 150ms ease-in-out;
+    &:hover{
+        background: rgb(255, 136, 0);
+        border: 2px solid rgba(255, 255, 255, 1);
+        color: #FFFFFF;
+    }
+}

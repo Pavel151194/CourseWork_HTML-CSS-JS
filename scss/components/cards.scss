@@ -1,0 +1,31 @@
+.card{
+    background: rgba(234, 234, 234, 0.8);
+    border-radius: 20px;
+    padding: 10px;
+    min-height: 90px;
+    .task{
+        display: grid;
+        grid-template-columns: 20px 20px 20px 1fr;
+        grid-gap: 10px;
+        background: #FFFFFF;
+        padding: 10px;
+        border-radius: 20px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        p{
+            line-height: 28px;
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        .date{
+            text-align: end;
+            font-size: 20px;
+        }
+        button{
+            display: flex;
+            align-items: center;
+        }
+    }
+}

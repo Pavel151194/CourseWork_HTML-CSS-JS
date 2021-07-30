@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+	font: inherit;
+	vertical-align: baseline;
+	cursor: default;
+	outline: none;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+button {
+	background-color: rgba(0, 0, 0, 0);
+	text-decoration: none;
+	cursor: pointer;
+	user-select: none;
+}
+select, option {
+	cursor: pointer;
+}
+img {
+	line-height: 0;
+}
+li {
+	list-style-type: none;
+}

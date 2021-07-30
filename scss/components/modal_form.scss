@@ -1,0 +1,33 @@
+.modal_form{
+    background: #FFFFFF;
+    padding: 8px;
+    border-radius: 20px;
+    width: 430px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    input[type=text]{
+        width: 100%;
+        background: none;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        cursor: text;
+        margin-bottom: 10px;
+    }
+    textarea{
+        resize: none;
+        width: 100%;
+        background: none;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        cursor: text;
+        margin-bottom: 10px;
+    }
+}
+.invalid{
+    border: 2px solid rgba(255, 0, 0, 1);
+}
